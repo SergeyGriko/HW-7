@@ -39,8 +39,8 @@ public class Main {
         int salaryProcent = 29000;
         int totalProcent = 0;
         for (int i = 1; i <= 12; i++) {
-            totalProcent = totalProcent + totalProcent / 100;
             totalProcent = totalProcent + salary;
+            totalProcent = totalProcent + totalProcent / 100;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + totalProcent + " рублей");
         }
         System.out.println("Задача Деcятая");
